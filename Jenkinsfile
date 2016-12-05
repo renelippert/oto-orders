@@ -1,6 +1,6 @@
 node ('master') {
     stage "checkout"
-    git "https://github.com/antweiss/spring-orders.git"
+    git "https://github.com/renelippert/spring-orders.git"
     
     stage 'build'
     sh './gradlew build -x test'
